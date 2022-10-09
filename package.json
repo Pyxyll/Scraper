@@ -1,0 +1,23 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Timetable scraping test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout=30000 ./tests"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "Dylan Collins",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1",
+    "puppeteer": "^18.2.1"
+  }
+}
